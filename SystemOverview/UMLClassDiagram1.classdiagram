@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="3d84e3b8-bb23-4e79-a329-4ae24190fba8" name="UMLClassDiagram1" linkedPackageId="ba964455-b9a9-4b3a-b620-4895c51b058e" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f71f79ab-e7a5-420f-9193-9c62bdf7cd49">
+      <profileInstance Id="1f3cbc5f-ecb3-46d8-98e5-fef82b7da531" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="50a9a5b3-d7e6-4fa0-bf0b-0f3caa1c6c20">
+      <profileInstance Id="04b67ff7-f602-4347-847c-6e805de95705" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a1426637-d325-412f-999c-75abf0b25167" name="NITool" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f281a449-7727-4a6a-a9b2-4a7baab863bd" />
+        <targetEnds>
+          <association Id="2edc5cbe-96c5-446c-ac5c-f04b1d7a387f" isDerived="false" sourceEndRoleName="NITool" targetEndRoleName="Kinect" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e07899a1-e85d-4af6-809e-0ec97e029dd9" LastKnownName="Kinect" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f8f5b85-8eb9-4efe-8d53-fd020039211f" name="NITool" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b1a877b8-68cd-4055-bd40-6fd508e0a1fb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="67b3d946-0273-4e19-af15-d768758ddade" name="Kinect" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="3e15106d-d3aa-4534-a182-abadd8c2b023" name="Lower" value="1">
+                      <elementDefinition Id="c19f19db-838d-434f-bfea-c73b653f4b47" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c6afd671-e815-4f82-aaa4-ff0c40094273" name="Upper" value="*">
+                      <elementDefinition Id="f6458d88-4223-4a95-a6d6-84b9ad237873" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="59962be7-e90c-45c7-a7a4-0408d25b0361" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7e417307-01ad-4e88-a2f9-aa43538974ae" />
+          </association>
+          <association Id="55265f44-43ba-4364-8e96-316725f7d804" isDerived="false" sourceEndRoleName="NITool" targetEndRoleName="MesaSR" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dc5e205d-8e7b-44a8-9196-8b9fd7e30bf9" LastKnownName="MesaSR" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e03529d4-a917-4435-ba57-55a556a1214f" name="NITool" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7504671b-ac16-412d-b424-d5029647ce58" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0fcdd93-ff31-4dcb-aa33-b3f180fbc54c" name="MesaSR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="1336bb03-ec00-438d-9879-2f87b2d13997" name="Lower" value="1">
+                      <elementDefinition Id="81319202-86da-4a72-b841-1386ce03d998" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c03415fd-e597-410b-8dfc-ead875bcfeed" name="Upper" value="*">
+                      <elementDefinition Id="82e9ad94-744e-40a7-93d8-0159b9b6fe85" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="b32be5bb-a01f-4978-91ee-2eb90b8d5c6a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="04e08f3d-654d-45f2-a02e-c1672ad22a53" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e07899a1-e85d-4af6-809e-0ec97e029dd9" name="Kinect" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e03f372d-8e11-4998-845b-16e1612558ab" />
+        <generalsInternal>
+          <generalization Id="db68eb37-23b0-4c8c-9887-bad0e1b6e058" isSubstitutable="false">
+            <classMoniker Id="fb16ae5f-9c21-41a8-aace-b13048a1cc73" LastKnownName="OpenNI::Device" />
+            <elementDefinition Id="fbc173a7-d75e-485c-a4a5-1f6072f2e37b" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="a641cba1-c93d-4728-b34b-a3f6bd726a53" isDerived="false" sourceEndRoleName="Kinect" targetEndRoleName="OptiTrack" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2f385794-4dd9-41de-a0fa-0a8e5081acdc" LastKnownName="OptiTrack" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ced6f6c-4196-4fe2-bc92-134058c16b70" name="Kinect" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="58839a41-5364-4a29-b6e4-2dd9bebf9ebe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d5e7c8e5-ce18-41fd-9357-84bb3c663841" name="OptiTrack" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="71f2a0db-d066-4039-abeb-f46566c33c97" name="Lower" value="0">
+                      <elementDefinition Id="fb557c93-a81f-47bb-800b-398e3d407cbe" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="16574d8a-2431-4ce0-b6ae-23489134b32f" name="Upper" value="1">
+                      <elementDefinition Id="3975c219-7cd1-47bd-a42b-e55f2e3c1eac" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0a662ad8-1ff4-400a-8059-d74410a84fec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="caa3aca4-0c6d-45bd-bab4-f72b3f46cec6" />
+          </association>
+          <association Id="bc5497f9-5d86-42b8-92af-06bbf02b7c26" isDerived="false" sourceEndRoleName="Kinect" targetEndRoleName="SensorIR" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8b73e422-b775-452f-adb2-f9cf9c2344e2" LastKnownName="SensorIR" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ec9937f5-0f84-467e-89f9-15b227bf0efd" name="Kinect" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="57a4b48b-2bf0-4b63-8438-879e1ef6b4b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8190e487-c598-44c2-bc7a-6e069172b3f1" name="SensorIR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="e6715050-f889-4d97-b961-e8968c2fe18f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b35ec04b-bb61-42d8-8ef9-63aba0a20ee1" />
+          </association>
+          <association Id="85a9db5a-70d8-4c15-aea5-f1f81929b557" isDerived="false" sourceEndRoleName="Kinect" targetEndRoleName="SensorRGB" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5bd6a701-5105-4d80-8203-5760868492d2" LastKnownName="SensorRGB" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5cc91a15-5ef7-4051-acbb-7c9f39c65266" name="Kinect" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4bb44b0f-b7f3-42e0-b39b-afd096bd677a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b498f6b-e023-475c-9ff4-d4b2edc13b20" name="SensorRGB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="262cde22-17be-4f25-be9f-9a060d96c67f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b8f1f60d-c0c6-477c-b866-e05efad81f38" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fb16ae5f-9c21-41a8-aace-b13048a1cc73" name="OpenNI::Device" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e72a1387-31ca-4aac-9295-6798ac136832" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dc5e205d-8e7b-44a8-9196-8b9fd7e30bf9" name="MesaSR" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="96c52034-745b-4342-955b-4686cdba1e11" />
+        <generalsInternal>
+          <generalization Id="d0e5f536-81d1-4bc3-abd0-f4fcda81e03d" isSubstitutable="false">
+            <classMoniker Id="a3c826eb-d7d0-40b0-8c3e-eb07099e1798" LastKnownName="DepthModel" />
+            <elementDefinition Id="97e2a5bf-cc0c-4027-8be2-83755105bf6a" />
+          </generalization>
+          <generalization Id="eba15c19-cf79-43a7-98e7-831a84949a20" isSubstitutable="false">
+            <classMoniker Id="ca74bee5-a8fc-4da6-887e-cc50f4c1745e" LastKnownName="ColorModel" />
+            <elementDefinition Id="f7eed870-0c0e-4db9-bcaa-c2d71a6c0024" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="8910bfa1-6762-4c02-bd91-9bc3def211a4" isDerived="false" sourceEndRoleName="MesaSR" targetEndRoleName="OptiTrack" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2f385794-4dd9-41de-a0fa-0a8e5081acdc" LastKnownName="OptiTrack" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc443b96-74b6-47f2-9ae6-76a346d444e4" name="MesaSR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4ea3ad69-419a-40cc-b96a-42ebe6599316" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fb638e48-beb0-4c92-9d8d-25013ce9d8ea" name="OptiTrack" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="04663800-c083-47bb-abd3-3621bd267485" name="Lower" value="0">
+                      <elementDefinition Id="a4eb8cdb-9b0c-481a-a51c-7a202e5794d1" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="afd822a2-ba20-40e2-b377-dabf19523331" name="Upper" value="1">
+                      <elementDefinition Id="84dcfdf8-e709-4379-b06e-d095bb4fe7d4" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="e8f6f3e2-2da1-4fb8-b16d-fbcb1c1d7a16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6120d521-be63-46d9-b545-3d6d585667e3" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2f385794-4dd9-41de-a0fa-0a8e5081acdc" name="OptiTrack" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9f2202b7-904e-4692-a651-14fd32a963be" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8b73e422-b775-452f-adb2-f9cf9c2344e2" name="SensorIR" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="102ae70e-fbcf-4a3f-8a42-f4e1371476f7" />
+        <generalsInternal>
+          <generalization Id="1c4804a7-5f6e-44b4-9e92-89c81d57962a" isSubstitutable="false">
+            <classMoniker Id="ca74bee5-a8fc-4da6-887e-cc50f4c1745e" LastKnownName="ColorModel" />
+            <elementDefinition Id="0139ae14-83a1-4895-93d4-9f566c695bee" />
+          </generalization>
+          <generalization Id="6176004f-cd4a-45b4-8dcd-c3bcb315197b" isSubstitutable="false">
+            <classMoniker Id="a3c826eb-d7d0-40b0-8c3e-eb07099e1798" LastKnownName="DepthModel" />
+            <elementDefinition Id="01931e0c-7c5a-4187-8bde-c618f932f5d2" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="46f9f78e-42e1-43ef-ac92-caff8a173c0c" isDerived="false" sourceEndRoleName="SensorIR" targetEndRoleName="Stream" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4f80d4cc-954e-430c-9431-43483d58eb3d" LastKnownName="Stream" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de065b52-cc54-4337-95d5-7b809e087d05" name="SensorIR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f27ea2bc-99b6-4d73-b827-d23863f615e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="44771bbf-e481-46e2-9700-1b4cdbcbc43f" name="Stream" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="73bda2e2-0fa0-4b63-b1c0-cc4e5dd507d6" name="Lower" value="2">
+                      <elementDefinition Id="7ce33aa5-0387-469a-8101-36bc185ccd98" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="1c3d3e92-04c8-49e7-bd75-0cc764ddc8ef" name="Upper" value="2">
+                      <elementDefinition Id="3ed6a42c-724b-4906-a2c8-159418e2e73c" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="65ef6877-c452-4fee-adc7-afd790d34e87" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d55100c0-9400-49f0-932d-6a0742ee74eb" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5bd6a701-5105-4d80-8203-5760868492d2" name="SensorRGB" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c4a5f2fb-eeee-4367-be21-5922d6b2579d" />
+        <generalsInternal>
+          <generalization Id="02bc7bea-0870-422f-aa27-b1f62f460d4c" isSubstitutable="false">
+            <classMoniker Id="ca74bee5-a8fc-4da6-887e-cc50f4c1745e" LastKnownName="ColorModel" />
+            <elementDefinition Id="73f5275c-9197-4ec0-83e5-7d83b9c4132f" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="c9b4b380-39ec-4d87-9720-9ff4981b5642" isDerived="false" sourceEndRoleName="SensorRGB" targetEndRoleName="Stream" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4f80d4cc-954e-430c-9431-43483d58eb3d" LastKnownName="Stream" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac30f522-9a96-44b3-9382-c03ceeec6b7f" name="SensorRGB" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7a5edaeb-d64f-464f-bc3f-76af0cc33758" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="13738332-be9e-4226-af7e-21cf8ac1e375" name="Stream" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="525b1f22-ac39-401e-9188-7ab7d0c45013" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1e1c527e-93cc-4ce7-917f-7dd571d8348d" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a3c826eb-d7d0-40b0-8c3e-eb07099e1798" name="DepthModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="66a338ba-5953-493e-b1bc-45f27120d97e" />
+        <targetEnds>
+          <association Id="f3494f91-9c03-4e93-ba7c-5c62a9a0612e" isDerived="false" sourceEndRoleName="DepthModel" targetEndRoleName="Lookup" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0fb3ea8b-42b2-4f41-aa90-adf9b1b4a487" LastKnownName="Lookup" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="270ed065-0e93-43b8-93ca-287317284503" name="DepthModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ec610c70-8334-4151-98ad-0096cab87868" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0068490a-accd-4c5a-8957-12cdc1e8d15d" name="Lookup" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="10a95f51-91c9-4f8f-873b-99557ea995ac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bc2d2de6-09ca-4de8-a356-0d00869a99f9" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ca74bee5-a8fc-4da6-887e-cc50f4c1745e" name="ColorModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="106812d4-1fe3-444e-b2c3-405b89372a59" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4f80d4cc-954e-430c-9431-43483d58eb3d" name="Stream" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="17ae45f2-c9d0-427c-a0c8-b81a1245297d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0fb3ea8b-42b2-4f41-aa90-adf9b1b4a487" name="Lookup" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="efc668a2-a838-4f0a-ad5b-266376eed47c" />
+        <targetEnds>
+          <association Id="64d75fd1-0b4c-4437-a4a7-824bb8db4d3d" isDerived="false" sourceEndRoleName="Lookup" targetEndRoleName="LookupItem" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9845b462-f394-4311-89ea-c2458b5172d3" LastKnownName="LookupItem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8406c918-0265-4d51-906f-a20fa13ea449" name="Lookup" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f68d48d2-60ec-484b-8089-e817e116233f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="69dcd2e8-aa9f-4ad4-8f5e-7e20fe25bcf2" name="LookupItem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="50db14f1-899d-4e2e-a7ea-fc829f309059" name="Lower" value="*">
+                      <elementDefinition Id="9be2541e-e059-4ad4-809a-e5edbfdaabfe" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f9285b87-b378-4991-a9f3-28b4156f6c42" name="Upper" value="*">
+                      <elementDefinition Id="d2efecfa-a5d4-4837-a7f7-1ffb65669e31" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0d26a628-993b-4686-95bb-ba3dc94efd07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6ace53f1-2dd5-4eb1-8f68-96544d3ca501" />
+          </association>
+          <association Id="99f3ca23-74f0-4ffe-b81c-184dcac78d17" isDerived="false" sourceEndRoleName="Lookup" targetEndRoleName="LookupGL" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2d52e7e5-01dc-41ce-a3ec-72b47bf0e9ef" LastKnownName="LookupGL" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="185ceaae-6f1f-470f-b20a-6951a109293a" name="Lookup" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="05668e4b-6b7e-4392-956b-b45fadcd16f4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b53cc911-b504-441c-8847-d09a9c7a6d42" name="LookupGL" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4d815f64-3298-400d-9c01-cae5c8ed3086" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5f825c44-6542-4b86-82e7-2e7c05ed2b06" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9845b462-f394-4311-89ea-c2458b5172d3" name="LookupItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="28591754-e856-4fc6-bf8a-534ac56e2be0" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2d52e7e5-01dc-41ce-a3ec-72b47bf0e9ef" name="LookupGL" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b72ff80c-9f0c-40ee-8835-011d523d30ec" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="ba964455-b9a9-4b3a-b620-4895c51b058e" name="SystemOverview">
+    <elementDefinition Id="01616759-f833-41f6-b8e5-3b6b521aa15f" />
+  </package>
+</logicalClassDesignerModel>
