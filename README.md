@@ -1,1 +1,1 @@
-<h5>Test</h5><h1>This is an image acquisition and calibration tool.</h1><h2>text correction branch</h2>
+<h1>This is an image acquisition and calibration tool.</h1>
