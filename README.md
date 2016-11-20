@@ -1,1 +1,1 @@
-<h1>Image acquisition and calibration tool</h1>
+<h1>Image acquisition and calibration tool<h5>Text added from master branch</h5></h1>
