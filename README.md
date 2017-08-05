@@ -1,1 +1,1 @@
-<h2>Image acquisition and calibration tool.</h2>
+<h1>Image acquisition and calibration tool.</h1>
